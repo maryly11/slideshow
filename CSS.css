@@ -1,0 +1,137 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color:rgba(153, 170, 139, 0.875);
+}  
+div.container{
+    width: 80%;
+    margin: 0 auto;
+  }
+  header{
+    background-color:rgba(151, 185, 121, 0.875);
+    font-size:xx-large;
+    text-align:center;
+  }
+  .hero{
+    background-color: aqua;
+    background-image: url(images/pexels-scottwebb-136404.jpg);
+    padding-top: 10%;
+    padding-bottom: 25%;
+    background-size: 100%;
+  }
+  div.left, div.middle, div.right{
+    width: 300px;
+    height: 300px;
+    padding-bottom: 5%;
+    margin: 5%;
+  }
+  aside img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  aside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  nav{
+    background-color: rgba(30, 89, 39, 0.555);
+    font-weight: bold;
+    font-stretch: extra-expanded;
+
+  }
+  ul{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+  }
+  li{
+    list-style-type: none;
+    border: 4px solid rgba(255, 252, 252, 0);
+    line-height: 3em;
+    font-size: larger;
+  }
+  a{
+    color: aliceblue;
+    text-decoration: none;
+    border: 0px solid rgba(0, 0, 0, 0);
+    display: block;
+  }
+  div.left{
+    background-color: black;
+    background-image: url(images/bike.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    text-align:center;
+    color: white;
+    font-size: larger;
+  }
+  div.middle{
+    background-color: bisque;
+    background-image: url(images/trainer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    text-align:center;
+    color: white;
+    font-size: larger;
+  }
+  div.right{
+    background-color: blueviolet;
+    background-image: url(images/lift.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    text-align:center;
+    color: white;
+    font-size: larger;
+  }
+  footer{
+    font-size: x-large;
+    text-align: center;
+    color: white;
+  }
+  h1{
+    color: white;
+    font-style: normal;
+  }
+  h2{
+    color: white;
+    font-size: xx-large;
+    font-style: oblique;
+  }
+  h1.pictitle{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+  }
+  h1.quote{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 5%;
+    font-size: xx-large
+  }
+  h1.why{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-style: italic;
+  }
+  p.p{
+    font-size: x-large;
+    padding-bottom: 5%;
+    font-style: italic;
+  }
+  .slideshowparent{
+    width: 100%;
+    text-align: center;
+    border: 1px solid red;
+  }
